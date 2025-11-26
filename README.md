@@ -58,11 +58,7 @@ Edite o arquivo `.env` e configure:
 
 ### 3. Iniciar a Rede Besu
 
-Certifique-se de que sua rede Besu está rodando. Use o script `commandGenerator.py` para ajudar:
-
-```bash
-python commandGenerator.py
-```
+Certifique-se de que sua rede Besu está rodando.
 
 ## 🚀 Deploy e Execução
 
