@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Hardhat files
+cache
+artifacts
+
+# Node modules
+node_modules
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode
+.idea

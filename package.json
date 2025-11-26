@@ -1,0 +1,32 @@
+{
+  "name": "bebida-segura",
+  "version": "1.0.0",
+  "description": "Sistema de rastreabilidade de bebidas alcoólicas usando blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network besu",
+    "interact:setup": "hardhat run scripts/interact-setup.js --network besu",
+    "interact:lote": "hardhat run scripts/interact-criar-lote.js --network besu",
+    "interact:analise": "hardhat run scripts/interact-analise.js --network besu",
+    "interact:distribuir": "hardhat run scripts/interact-distribuir.js --network besu",
+    "interact:consultar": "hardhat run scripts/interact-consultar.js --network besu"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "besu",
+    "rastreabilidade"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

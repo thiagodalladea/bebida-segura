@@ -33,7 +33,6 @@ Antes de começar, certifique-se de ter instalado:
 
 - [Node.js](https://nodejs.org/) (v18 ou superior)
 - [Hyperledger Besu](https://besu.hyperledger.org/) rodando uma rede privada IBFT
-- Git
 
 ## ⚙️ Configuração do Ambiente
 
@@ -246,10 +245,6 @@ bebida-segura/
 - [Documentação do Hardhat](https://hardhat.org/docs)
 - [Documentação do Besu](https://besu.hyperledger.org/)
 - [Solidity Docs](https://docs.soliditylang.org/)
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
 ## 📄 Licença
 
